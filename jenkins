@@ -1,0 +1,10 @@
+pipeline {
+    agent any 
+    stages {
+        stage ('Package : ZEYDEVOPS' ) {
+            steps { abapCi abapPackagename: 'ZEY_DEVOPS', runAtcChecks: true, runUnitTests: true, 
+            sapSystemLabel: 'EYD', withCoverage: true
+        }
+    }
+}
+}
