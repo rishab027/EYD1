@@ -16,6 +16,6 @@ CLASS ZTESTGIT IMPLEMENTATION.
 
 
   method METHOD1.
-skip.
+skip. "ed
   endmethod.
 ENDCLASS.
