@@ -17,6 +17,6 @@ CLASS ZTESTCLASS IMPLEMENTATION.
 
 
   method METHOD1.
-  skip.
+    skip.
   endmethod.
 ENDCLASS.
