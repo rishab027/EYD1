@@ -16,6 +16,6 @@ CLASS ZTESTGIT IMPLEMENTATION.
 
 
   method METHOD1.
-skip. "ed
+skip." commit 11...
   endmethod.
 ENDCLASS.
